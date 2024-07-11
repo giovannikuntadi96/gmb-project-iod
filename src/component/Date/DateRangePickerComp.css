@@ -1,0 +1,65 @@
+.inputBoxContainer {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+  
+input.inputBox {
+    padding: 10px 30px 10px 40px; /* Padding for text and icon */
+    border-radius: 15px;
+    border: 1.5px solid #ccc;
+    min-width: 270px;
+    font-size: 16px;
+    font-weight: 500;
+}
+  
+.calendarIcon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #666;
+    cursor: pointer;
+}
+  
+.dropdownIcon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #FFC700;
+    cursor: pointer;
+}
+  
+.applyButton {
+    display: block;
+    margin: 10px 5px 5px auto;
+    padding: 5px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFC700;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.applyButton:hover {
+    background-color: #e0b004;
+    border: 2px solid #1144ff;
+}
+.calendarWrap {
+    position: relative;
+    /* Ensure it's relative to contain absolute positioned child */
+}
+
+.calendarContainer {
+    position: absolute;
+    top: 100%; 
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 0 10px #00000033;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+  

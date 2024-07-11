@@ -1,0 +1,20 @@
+.custom-margin {
+    margin: 500px auto auto auto;
+    position: relative;
+  }
+
+.message_button {
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFC700;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #242425;
+}
+
+.message_button:hover {
+    background-color: #e0b004;
+    border: 2px solid #1144ff;
+}

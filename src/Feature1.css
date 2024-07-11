@@ -1,0 +1,40 @@
+.feature-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-filter-spacing {
+    margin-bottom: 20px;
+}
+
+.filter-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 0px; /* Adjust the gap as needed */
+}
+
+.date-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+.export-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    min-width: 120px;
+}
+
+.export-button:hover {
+    background-color: #45a049;
+}

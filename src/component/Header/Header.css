@@ -1,0 +1,45 @@
+.header {
+    min-height: 80px;
+    min-width: 100vh;
+    background-color: #F7F9FC;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: add shadow */
+}
+
+.logo-img {
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between logo and app name */
+}
+
+.app-name {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    margin-left: auto;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu ul li {
+    margin-right: 20px;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-menu ul li a:hover {
+    color: #f0f0f0;
+}

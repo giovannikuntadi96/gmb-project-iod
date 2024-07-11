@@ -1,0 +1,77 @@
+.sidebar {
+    min-width: 75px;
+    min-height: 100vh; /* Full height */
+    background-color: #F7F9FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    transition: min-width 0.2s ease; /* Smooth transition */
+    overflow: hidden; /* Prevent text overflow */
+}
+
+.sidebar:hover {
+    min-width: 190px; /* Expanded width on hover */
+}
+
+.sidebar-item {
+    color: #757272;
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    transition: background-color 0.2s ease, color 0.3s ease;
+    padding: 0 10px; /* Padding for text */
+    margin: 20px auto 0px 12px;
+}
+
+.sidebar-item.active, .account-icon.active {
+    color: #000000; /* Active icon color */
+    box-shadow: 2px 4px 6px rgba(221, 145, 4, 0.5); /* Add shadow for active icon */
+    padding: 0px 5px 0px 14px;
+    
+    width: auto;
+}
+
+.sidebar-item:hover, .account-icon:hover {
+    color: #000000;
+    background-color: #f7dc90;
+    border-radius: 5%; /* Optional: Round icons on hover */
+
+    width: 150px;
+}
+
+.icon {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.icon-label {
+    display: none; /* Hide labels by default */
+    font-size: 16px; /* Text size */
+    padding: 0 5px 0 5px;
+}
+
+.sidebar:hover .icon-label {
+    display: inline; /* Show labels on hover */
+    padding: 0px 28px 0px 0px;
+}
+
+
+.account-icon {
+    color: #757272;
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    transition: background-color 0.2s ease, color 0.3s ease;
+    padding: 0 10px; /* Padding for text */
+    margin: auto auto 50px 12px;
+}

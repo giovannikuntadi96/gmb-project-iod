@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Menggunakan tinggi 100% dari viewport */
+}
+
+/* Content container untuk sidebar dan konten */
+.content-container {
+  display: flex;
+  flex: 1; /* Konten memenuhi sisa ruang */
+}
+
+/* Konten */
+.content {
+  flex: 1; /* Konten memenuhi sisa ruang dalam content-container */
+  padding: 20px;
+}
+
+/* Optional: Styling untuk Header, Sidebar, dan Komponen Lainnya */
