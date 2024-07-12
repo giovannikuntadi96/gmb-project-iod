@@ -31,7 +31,7 @@ function App() {
               </div>
           </div>
       </Router>
-
+      document.getElementById('root')
   );
 }
 export default App;
